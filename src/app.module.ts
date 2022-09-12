@@ -5,6 +5,6 @@ import { NoteModule } from './note/note.module';
 import { PrismaModule } from './prisma/prisma.module';
 
 @Module({
-  imports: [AuthModule, UserModule, NoteModule, PrismaModule],
+  imports: [AuthModule, UserModule, NoteModule, PrismaModule]
 })
 export class AppModule {}
